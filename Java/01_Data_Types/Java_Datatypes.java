@@ -1,12 +1,12 @@
-import java.io.*; 
+import java.io.*;
 import java.math.*;
- import java.security.*; 
- import java.text.*; 
- import java.util.*; 
- import java.util.concurrent.*; 
- import java.util.regex.*;
+import java.security.*;
+import java.text.*;
+import java.util.*;
+import java.util.concurrent.*;
+import java.util.regex.*;
 
-public class Solution {
+public class Java_Datatypes {
 
     private static final Scanner scanner = new Scanner(System.in);
 
@@ -15,16 +15,12 @@ public class Solution {
 
         if (N % 2 != 0) {
             System.out.println("Weird");
-        } 
-        else if (N >= 2 && N <= 5) {
+        } else if (N >= 2 && N <= 5) {
             System.out.println("Not Weird");
-        } 
-        else if (N >= 6 && N <= 20) {
+        } else if (N >= 6 && N <= 20) {
             System.out.println("Weird");
-        } 
-        else {
+        } else {
             System.out.println("Not Weird");
         }
     }
 }
-
